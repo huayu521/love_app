@@ -34,6 +34,6 @@ public class WebMvcConfig implements WebMvcConfigurer {
      **/
     public void addInterceptors(InterceptorRegistry registry){
         //拦截所有请求
-        registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/image/**","/wx/user/login","/register","/fileImage","/payOrder");
+        // registry.addInterceptor(new LoginInterceptor()).addPathPatterns("/**").excludePathPatterns("/image/**","/wx/user/login","/register","/fileImage","/payOrder");
     }
 }
